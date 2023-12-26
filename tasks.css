@@ -1,0 +1,60 @@
+
+.tasks,
+.doing,
+.done {
+    border: 1px solid #333;
+    border-radius: 10px; 
+    padding: 20px;
+    margin: 10px;
+    flex: 1;
+}
+
+.tasks {
+    margin-right: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.tasks-side{
+    height: 80%;
+    border-top: 1px solid;
+}
+
+.tasks-button {
+    display: flex;
+    justify-content: right; /* Aligne horizontalement le contenu au centre */
+    align-items: center; /* Aligne verticalement le contenu au centre */
+    padding: 10px;
+ 
+    
+}
+
+.addButton {
+   
+    background-color: black; /* Ajoutez la couleur de fond souhaitée */
+    color: white; /* Ajoutez la couleur du texte (blanc dans cet exemple) */
+    border: none; /* Supprime la bordure du bouton */
+    padding: 7px; /* Ajoutez un peu de rembourrage pour améliorer l'apparence */
+    cursor: pointer; /* Change le curseur lorsqu'il survole le bouton */
+}
+
+
+
+
+
+
+
+.doing {
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.done {
+    border-bottom: 1px solid black;
+    margin-left: 10px;
+}
+
+
+.cardName{
+    text-align: center;
+    font: 1em italic;
+}
