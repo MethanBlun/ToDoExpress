@@ -6,3 +6,9 @@
     align-items: center; /* Aligne verticalement le contenu au centre */
     padding: 10px; 
 }
+
+.field-addButton{
+    color: black;
+   background-color: transparent;
+   border-radius: 8px;
+}

@@ -1,51 +1,21 @@
-body {
-    background-color: #85FFBD;
-    background-image: linear-gradient(45deg, #85FFBD 0%, #FFFB7D 100%);
+main {
+   
     display: flex;
     align-items: top;
     justify-content: center;
     height: 100vh;
     margin: 0;
 }
+body{
+  
+        background-color: #85FFBD;
+        background-image: linear-gradient(45deg, #85FFBD 0%, #FFFB7D 100%);
+
+}
 
 .div-principal {
     display: flex;
     justify-content: space-between;
     width: 80%;
-    margin-top: 50px; /* Ajustez selon vos besoins */
-}
-
-.tasks,
-.doing,
-.done {
-    border: 1px solid #333;
-    border-radius: 10px; /* Ajoutez un border-radius */
-    padding: 20px;
-    margin: 10px;
-    flex: 1;
-}
-
-/* Ajoutez une marge entre les cartes */
-.tasks {
-    margin-right: 10px;
-    display: flex;
-    flex-direction: column;
-}
-.tasks-side{
-    height: 80%;
-}
-.doing {
-    margin-right: 10px;
-    margin-left: 10px;
-}
-
-.done {
-    border-bottom: 1px solid black;
-    margin-left: 10px;
-}
-
-
-.cardName{
-    text-align: center;
-    font: 1em italic;
+    margin-top: 50px;
 }
