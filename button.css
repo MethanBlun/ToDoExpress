@@ -2,8 +2,8 @@
 
 .tasksbutton{
     display: flex;
-    justify-content: center; /* Aligne horizontalement le contenu au centre */
-    align-items: center; /* Aligne verticalement le contenu au centre */
+    justify-content: center; 
+    align-items: center; 
     padding: 10px; 
 }
 
