@@ -37,15 +37,20 @@
 }
 
 .addButton {
-   
-    background-color: black; 
-    color: white;
-    border: solid 1px;
-    border-radius: 15px;
-    padding: 7px; 
+    padding: 10px 15px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: #28a745;
+    color: #fff; 
     cursor: pointer;
-}
-
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .addButton:hover {
+    background-color: #218838; 
+  }
+  
 
 
 
@@ -93,3 +98,20 @@
     border-color: #007BFF; 
     outline: none;
   }
+
+
+  .field-addButton {
+    padding: 10px 15px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007BFF; 
+    color: #fff; 
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .field-addButton:hover {
+    background-color: #0056b3; 
+  }
+  
