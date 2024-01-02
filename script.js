@@ -3,19 +3,16 @@
 
 
 function addTask() {
-    // Récupérez la valeur de l'input
     var taskValue = document.getElementById('taskInput').value;
     // Vérifiez si l'input n'est pas vide
     if (taskValue.trim() !== '') {
-      // Créez un nouvel élément li
-      var newTask = document.createElement('div');
-      // Ajoutez la valeur de la tâche à l'élément li
+      var newTask = document.createElement('div'); 
       newTask.textContent = taskValue
+
+      newTask.style.border = '1px solid #ccc'
       var tasksList = document.getElementById('tasksList');
     //  var tasksList = document.(".taskSide")
-      // Ajoutez l'élément li à la liste
-      tasksList.appendChild(newTask);
-      
+      tasksList.appendChild(newTask); 
       document.getElementById('taskInput').value = '';
     }
   }
